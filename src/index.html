@@ -3,20 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Boi Bandido 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
         <div class="container">
             <img src="#" alt="">
             <p class="hero__text">
-                O maior evento do Brasil começa em MUITO TEMPO
+                A maior festa de aniversário undergraund de Goiânia será em <span id="contador"></span>
             </p>
+            <div class="infos-bars">
+                <ul class="infos-bars__infos">
+                    <li class="infos-bars__infos__item">
+                        <b>Localização</b>
+                        Na estação abondonado de Goiânia
+                    </li>
+                    <li class="infos-bars__infos__item">
+                        <b>Preço</b>
+                        Bebida e comida
+                    </li>
+                    <li class="infos-bars__infos__item">
+                        <b>Quando</b>
+                        Dás 00:00 até 23:59 de 03/01/2024
+                    </li>
+                </ul>
+                <a href="" class="button button--primary">
+                    Garantir minha presença
+                </a>
+            </div>
         </div>
     </header>
-
-
+    <section class="event event--oquesperar" >
+        <div class="container" data-aos="fade-right">
+            <div class="event__detail">
+            <h2 class="event__detail__title">SOBRE O ESPAÇO</h2>
+                <p class="event__detail__descript">O espaço será na antiga estação de trem abandonada de Goiânia, e assim como a escência da festa, o espaço foi escolhido para que se atinja o ápice da liberdade, estará liberado o grafite para os artisticos, obstáculos de skate e parkuor para os apaixonados pela adrenalina, fliperamas antigos e vídeo-games de última geração para os que gostam de viver em outra realidade e claro, música de altíssima qualidade para os que gostam de conversar com seus movimentos mais insanos.</p>
+            </div>
+            <img class="event__image" src="./images/lost-places-1510592_640.jpg" alt="">
+        </div>
+    </section>
+    <section class="event event--praQuemE event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__detail">
+            <h2 class="event__detail__title">SOBRE A MÚSICA</h2>
+                <p class="event__detail__descript">A música será uma incrivel seleção de TUDO E MAIS UM POUCO. Grandes dj's nacionais aparecerão na festa pra dar aquela pitada de eletrofunk, eletrônica e psicotrance. O Rock e o Rap tambem terão um espaço marcante na noite, até porque são simbolos do estilo de vida undergraund. E por último, para lembrarmos de onde estamos, um pouco de sertanejo para os apaixonados, ou para os que já estiveram.</p>
+            </div>
+            <img class="event__image" src="./images/hand-1850120_640.jpg" alt="">
+        </div>
+    </section>
+    <section class="event event--praQuemNaoE">
+        <div class="container" data-aos="fade-right">
+            <div class="event__detail">
+            <h2 class="event__detail__title">SOBRE O EVENTO</h2>
+                <p class="event__detail__descript">O evento é a segunda edição do Boi Bandido, em comemoração do aniversário do nosso querido patrocinador e organizador da festa, Gustavin, completando 21 anos. O festival tem como principal objetivo trazer a cultura urbana das ruas europeias para as matas de Goiânia, muitos grafites, raps, parkuor e skatistas, a ideia é que todos possam ser aquilo que realmente são, sem julgamento e sem críticas.</p>
+            </div>
+            <img class="event__image" src="./images/concert-3084876_640.jpg" alt="">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

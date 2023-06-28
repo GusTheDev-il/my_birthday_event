@@ -1,4 +1,7 @@
 @use 'hero';
+@use '../components/infos_bars';
+@use '../components/buttons';
+@use '../components/event';
 
 * {
     margin: 0;
@@ -6,6 +9,7 @@
     font-family: sans-serif;
     box-sizing: border-box;
     color: white;
+    list-style: none;
 }
 
 .container {

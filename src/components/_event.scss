@@ -1,0 +1,53 @@
+.event {
+    padding: 80px 0;
+    
+    &--oquesperar {
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(148, 233, 229));
+    }
+
+    &--praQuemE {
+        background-image: linear-gradient(rgb(148, 233, 229), rgb(94, 2, 136));
+    }
+    
+    &--praQuemNaoE {
+        background-image: linear-gradient(rgb(94, 2, 136), rgb(185, 129, 6));
+    }
+
+    &--image-left {
+        .container{
+            flex-direction: row-reverse;
+        }
+    }
+
+    .container {
+        display: flex;
+        gap: 40px;
+    }
+
+    &__image{
+        max-width: 360px;
+    }
+
+    &__detail {
+
+        &__title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        
+        &__descript{
+            line-height: 22px;
+        }
+    }
+
+    @media (max-width: 640px){
+        .container {
+            display: block;
+        }
+
+        &__image {
+            width: 100%;
+        }
+    }
+}
